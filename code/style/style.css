@@ -1,0 +1,21 @@
+body {
+    overflow: hidden;
+    margin: 0px;
+}
+
+.info {
+    position: fixed;
+    top: 20px;
+    right: 10px;
+    z-index: 1;
+    font-size: 1.2em;
+    user-select: none;
+}
+
+.dinfo {
+    background-color: #ffffff;
+    padding: 2px 7px;
+    margin: 5px 5px;
+    border-radius: 4px;
+    cursor: help;
+}
